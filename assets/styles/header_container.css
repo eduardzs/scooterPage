@@ -1,0 +1,103 @@
+#header_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#nav_container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#nav_container ul{
+    display: flex;
+    gap: 30px;
+}
+
+#nav_container ul li a{
+    color: #757575;
+    font-weight: bold;
+    break-word: break-word;
+}
+
+#nav_container ul li a:hover{
+    color: #757575;
+}
+
+#nav_container button{
+    margin-left: 50px;
+    background-color: #242424;
+    color: #e4e4e4;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+}
+
+#nav_container button:hover{
+    background-color: #757575;
+    cursor: pointer;
+}
+
+@media(max-width: 920px){
+    #header_container{
+        display: block;
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+    #nav_container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 784px){
+    #header_container{
+        display: block;
+    }
+    #nav_container button{
+        display: none;
+    }
+}
+
+@media(max-width: 600px){
+    #header_container{
+        display: block;
+        background-color: #A2D2EE;
+    }
+    #nav_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    #nav_container button{
+        display: none;
+    }
+    #nav_container ul{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 140px);
+        grid-template-rows: 3fr;
+    } 
+    #nav_container ul li a{
+        padding: 5px;
+        background:#326583;
+        color: #fff;
+        border-left: 5px solid transparent;
+        border-radius: 5px;
+    }
+    #nav_container ul li a:hover{
+        border-left: 5px solid #59B5EB;
+        color: #fff;
+    }
+    #contato{
+        grid-column: 1/-1;
+    }
+}
+
