@@ -1,0 +1,32 @@
+#container_vantagens{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#vantagens{
+    display: grid;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+#vantagens img{
+    width: 60px;
+    margin: 0 auto;
+}
+
+#vantagens p{
+    color: #757575;
+}
+
+@media (max-width: 500px){
+    #container_vantagens{
+        display: block;
+    }
+}

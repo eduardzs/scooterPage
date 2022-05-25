@@ -1,3 +1,6 @@
 @import './global.css';
 @import './header_container.css';
-@import './container_principal.css'
+@import './container_principal.css';
+@import './container_vantagens.css';
+@import './local_container.css';
+@import './footer_container.css'

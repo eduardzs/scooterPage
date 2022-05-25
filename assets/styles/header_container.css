@@ -19,7 +19,6 @@
 #nav_container ul li a{
     color: #757575;
     font-weight: bold;
-    break-word: break-word;
 }
 
 #nav_container ul li a:hover{
@@ -67,7 +66,6 @@
 @media(max-width: 600px){
     #header_container{
         display: block;
-        background-color: #A2D2EE;
     }
     #nav_container{
         display: grid;
@@ -87,14 +85,14 @@
     } 
     #nav_container ul li a{
         padding: 5px;
-        background:#326583;
-        color: #fff;
-        border-left: 5px solid transparent;
+        background:#e4e4e4;
+        color: #242424;
+        border-left: 3px solid transparent;
         border-radius: 5px;
     }
     #nav_container ul li a:hover{
-        border-left: 5px solid #59B5EB;
-        color: #fff;
+        border-left: 3px solid #A2D2EE;
+        color: #000;
     }
     #contato{
         grid-column: 1/-1;
